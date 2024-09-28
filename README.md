@@ -6,6 +6,12 @@ Este projeto demonstra o uso de Media Queries no CSS para criar layouts responsi
 O projeto é composto por um arquivo HTML principal e uma folha de estilo CSS que contém regras de Media Queries para diferentes tipos de dispositivos e orientações.
 ## Layout Responsivo com Media Queries
 O site foi desenvolvido para se ajustar dinamicamente a diferentes larguras de tela e orientações. Abaixo estão as diferentes Media Queries usadas no projeto.
+## No código HTML, foi implementado um menu de navegação utilizando a tag <nav>, contendo um link que leva à página "Explicação". A estrutura básica do menu é simples, utilizando a tag <a> para criar o link de navegação.
+``` css
+<nav>
+    <a href="explicativo.html">Explicação</a>
+</nav>
+```
 # 1. Media Query: Dispositivos Móveis (até 600px de largura)
 ```css
 @media (max-width: 600px) {
